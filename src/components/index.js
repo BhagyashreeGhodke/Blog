@@ -1,15 +1,18 @@
+
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
-import Container from './Container/Container'
-import Logo from "./Logo/Logo";
+import Container from "./Container/Container";
+import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
-import BtnUI from "./BtnUI/BtnUI";
-import Input from './Input'
+import RTE from "./RTE";
+import Signup from "./Signup";
 import Login from "./Login";
+import Button from "./Button";
+import PostForm from "./PostForm";
+import PostCard from "./PostCard";
+import AuthLayout from "./AuthLayout";
+import Input from './Input'
 import Select from './Select';
-import PostCard from './PostCard'
-
-
 
 export {
     Header,
@@ -17,9 +20,13 @@ export {
     Container,
     Logo,
     LogoutBtn,
-    BtnUI,
-    Input,
+    RTE,
+    Signup,
     Login,
+    Button,
+    PostForm,
+    PostCard,
+    AuthLayout, 
+    Input,
     Select,
-    PostCard
 }
